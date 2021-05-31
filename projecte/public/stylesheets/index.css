@@ -1,0 +1,196 @@
+body{
+    background-image: url("/fons");
+    background-size: cover;
+}
+
+.logo{
+    margin-left:2em;
+}
+
+.imgLogo{
+    height: 50px;
+}
+
+.divTitol{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.titol{
+    text-shadow: 2px 2px 5px gray;
+}
+
+.divAnimacio{
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-top: 5%;
+    background-color: rgba(128, 128, 128, 0.541);
+}
+
+.divCard{
+    max-width: 40%; 
+    margin-top: 5%; 
+    left: 30%; 
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+}
+
+#urlModelEntrenat{
+    width: 90%;
+}
+
+#files{
+    display:none;
+}
+
+.navEspecial{
+    position:absolute;
+    width:100%;
+    z-index: -2;
+}
+
+.footerEspecial{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    z-index: -2;
+}
+
+.contenidorCartes{
+    justify-content: center;
+    margin-top: 2%;
+    text-align: center;
+    align-items: center;
+}
+
+.cartaAjuda{
+    max-width: 60%;
+    margin-top: 5%;
+    left: 20%;
+    text-align: center;
+}
+
+.cartaDins2{
+    margin-left: 30%;
+    margin-top: 2%;
+    display: inline-block;
+    width: 40%;
+}
+
+.contenidorBotonsCarta{
+    margin-top: 2%;
+    text-align: center;
+    align-items: center;
+}
+
+.cub {
+    position: relative;
+    animation-name: cubA;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.esfera {
+    position: relative;
+    animation-name: esferaA;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.tetraedre {
+    position: relative;
+    animation-name: tetraedreA;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.divCos{
+    text-align: justify;
+}
+
+.divFooter{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+}
+
+@keyframes cubA {
+    0% {
+        left: 0px;
+    }
+    16.6% {
+        left: 160px;
+    }
+    33.2% {
+        left: 320px;
+    }
+    49.8% {
+        left: 320px;
+    }
+    66.4% {
+        left: 160px;
+    }
+    83% {
+        left: 0px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+@keyframes esferaA {
+    0% {
+        left: 0px;
+    }
+    16.6% {
+        left: -160px;
+    }
+    33.2% {
+        left: -160px;
+    }
+    49.8% {
+        left: 0px;
+    }
+    66.4% {
+        left: 160px;
+    }
+    83% {
+        left: 160px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes tetraedreA {
+    0% {
+        left: 0px;
+    }
+    16.6% {
+        left: 0px;
+    }
+    33.2% {
+        left: -160px;
+    }
+    49.8% {
+        left: -320px;
+    }
+    66.4% {
+        left: -320px;
+    }
+    83% {
+        left: -160px;
+    }
+    100% {
+        left: 0px;
+    }
+}
